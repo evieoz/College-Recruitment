@@ -550,9 +550,20 @@ p {
    ABOUT PAGE
 ========================================== */
 
+
 .about-hero {
-    background-image: url("image1.jpg");
-    background-position: center 48%;
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(0, 30, 68, 0.88) 0%,
+            rgba(0, 30, 68, 0.58) 45%,
+            rgba(0, 30, 68, 0.18) 100%
+        ),
+        url("stadium.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .about-story-section {
